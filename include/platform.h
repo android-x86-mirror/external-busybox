@@ -154,8 +154,8 @@
 # define bswap_16 __bswap16
 # define __BIG_ENDIAN__ (_BYTE_ORDER == _BIG_ENDIAN)
 #elif !defined __APPLE__
-# include <byteswap.h>
 # include <endian.h>
+# include <byteswap.h>
 #endif
 
 #if defined(__BIG_ENDIAN__) && __BIG_ENDIAN__
