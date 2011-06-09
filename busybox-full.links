@@ -51,6 +51,7 @@
 /bin/grep
 /bin/gunzip
 /bin/gzip
+/sbin/halt
 /bin/head
 /bin/hexdump
 /bin/id
@@ -69,6 +70,7 @@
 /sbin/lsmod
 /sbin/lspci
 /sbin/lsusb
+/bin/lzmacat
 /bin/lzop
 /bin/lzopcat
 /bin/md5sum
@@ -91,11 +93,13 @@
 /bin/nslookup
 /sbin/ntpd
 /bin/od
+/bin/openvt
 /bin/patch
 /bin/pgrep
 /bin/pidof
 /bin/ping
 /bin/pkill
+/sbin/poweroff
 /bin/printenv
 /bin/printf
 /bin/ps
@@ -103,6 +107,7 @@
 /sbin/rdev
 /bin/readlink
 /bin/realpath
+/sbin/reboot
 /bin/renice
 /bin/reset
 /bin/rm
@@ -146,6 +151,7 @@
 /bin/uname
 /bin/uniq
 /bin/unix2dos
+/bin/unlzma
 /bin/unlzop
 /bin/unzip
 /bin/uptime
