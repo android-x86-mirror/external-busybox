@@ -19,6 +19,7 @@
 /bin/chmod
 /bin/chown
 /sbin/chroot
+/bin/chvt
 /bin/clear
 /bin/cmp
 /bin/comm
@@ -30,6 +31,7 @@
 /bin/date
 /bin/dc
 /bin/dd
+/bin/deallocvt
 /sbin/depmod
 /sbin/devmem
 /bin/df
@@ -49,6 +51,7 @@
 /sbin/fdisk
 /bin/fgrep
 /bin/find
+/bin/findfs
 /sbin/flashcp
 /sbin/flash_unlock
 /sbin/flash_lock
@@ -84,6 +87,7 @@
 /bin/ls
 /bin/lsattr
 /sbin/lsmod
+/bin/lspci
 /bin/lsusb
 /bin/lzcat
 /bin/lzma
@@ -91,6 +95,7 @@
 /bin/lzopcat
 /sbin/man
 /bin/md5sum
+/bin/mdev
 /bin/mesg
 /bin/mkdir
 /sbin/mke2fs
@@ -116,6 +121,7 @@
 /bin/nslookup
 /sbin/ntpd
 /bin/od
+/bin/openvt
 /bin/patch
 /bin/pgrep
 /bin/pidof
@@ -145,6 +151,7 @@
 /bin/sed
 /bin/seq
 /sbin/setconsole
+/bin/setkeycodes
 /bin/setserial
 /bin/setsid
 /bin/sh
@@ -160,6 +167,7 @@
 /bin/sum
 /sbin/swapoff
 /sbin/swapon
+/sbin/switch_root
 /bin/sync
 /sbin/sysctl
 /bin/tac
@@ -178,6 +186,7 @@
 /bin/tr
 /bin/traceroute
 /bin/true
+/bin/tty
 /bin/ttysize
 /sbin/tune2fs
 /bin/umount
