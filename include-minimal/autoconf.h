@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.21.1-jb
  */
-#define AUTOCONF_TIMESTAMP "2013-07-25 21:23 +0100"
+#define AUTOCONF_TIMESTAMP "2014-01-08 19:51 +0800"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -212,7 +212,7 @@
 #define ENABLE_SYSROOT 1
 #define IF_SYSROOT(...) __VA_ARGS__
 #define IF_NOT_SYSROOT(...)
-#define CONFIG_EXTRA_CFLAGS "-Os"
+#define CONFIG_EXTRA_CFLAGS "-Os -fno-short-enums -fgcse-after-reload -frerun-cse-after-loop -frename-registers"
 #define ENABLE_EXTRA_CFLAGS 1
 #define IF_EXTRA_CFLAGS(...) __VA_ARGS__
 #define IF_NOT_EXTRA_CFLAGS(...)
@@ -1808,6 +1808,10 @@
 #define ENABLE_BLOCKDEV 1
 #define IF_BLOCKDEV(...) __VA_ARGS__
 #define IF_NOT_BLOCKDEV(...)
+#define CONFIG_FSTRIM 1
+#define ENABLE_FSTRIM 1
+#define IF_FSTRIM(...) __VA_ARGS__
+#define IF_NOT_FSTRIM(...)
 #undef CONFIG_MDEV
 #define ENABLE_MDEV 0
 #define IF_MDEV(...)
@@ -1932,10 +1936,6 @@
 #define ENABLE_FSCK_MINIX 0
 #define IF_FSCK_MINIX(...)
 #define IF_NOT_FSCK_MINIX(...) __VA_ARGS__
-#define CONFIG_FSTRIM 1
-#define ENABLE_FSTRIM 1
-#define IF_FSTRIM(...) __VA_ARGS__
-#define IF_NOT_FSTRIM(...)
 #define CONFIG_MKFS_EXT2 1
 #define ENABLE_MKFS_EXT2 1
 #define IF_MKFS_EXT2(...) __VA_ARGS__
